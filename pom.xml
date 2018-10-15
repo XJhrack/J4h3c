@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.poke8.inode</groupId>
+	<artifactId>J4h3c-iNode</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>J4h3c</name>
+	<description>J4h3c-iNode</description>
+	<build />
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.pcap4j/pcap4j-sample -->
+		<dependency>
+			<groupId>org.pcap4j</groupId>
+			<artifactId>pcap4j-sample</artifactId>
+			<version>1.7.3</version>
+		</dependency>
+	</dependencies>
+</project>
