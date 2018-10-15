@@ -8,11 +8,16 @@
 	<description>J4h3c-iNode</description>
 	<build />
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.pcap4j/pcap4j-sample -->
+		<dependency>
+			<groupId>org.pcap4j</groupId>
+			<artifactId>pcap4j-core</artifactId>
+			<version>1.7.3</version>
+		</dependency>
 		<dependency>
 			<groupId>org.pcap4j</groupId>
 			<artifactId>pcap4j-sample</artifactId>
 			<version>1.7.3</version>
 		</dependency>
+
 	</dependencies>
 </project>
