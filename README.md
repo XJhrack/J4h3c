@@ -11,6 +11,15 @@
 * 经常莫名错误
 * 支持平台少
 
+## 下载
+[J4h3c](https://github.com/XJhrack/J4h3c/releases/download/1.0/J4h3c-v1.0.zip)
+
+使用方法，编辑run.bat
+替换用户名与密码 运行
+选择有线网卡完成认证
+
+命令行：java -jar SchoolAuth.jar 用户名 密码
+
 ## 附加说明
 目前只负责认证，认证成功后需手动发起dhcp获取ip
 后续添加自动获取功能
