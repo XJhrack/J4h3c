@@ -12,13 +12,17 @@
 * 支持平台少
 
 ## 下载
-[J4h3c](https://github.com/XJhrack/J4h3c/releases/download/1.0/J4h3c-v1.0.zip)
+J4h3c：[下载地址](https://github.com/XJhrack/J4h3c/releases)
 
 使用方法，编辑run.bat
 替换用户名与密码 运行
 选择有线网卡完成认证
 
 命令行：java -jar SchoolAuth.jar 用户名 密码
+
+## 依赖开发环境
+* Linux/openWRT: libpcap
+* Windows: WinPcap
 
 ## 附加说明
 目前只负责认证，认证成功后需手动发起dhcp获取ip
@@ -29,4 +33,4 @@
 * [Pcap4J](https://github.com/kaitoy/pcap4j)
 
 ## 参考
-
+[伯克利包过滤语法](https://www.winpcap.org/docs/docs_40_2/html/group__language.html)(Berkeley Packet Filter,BPF)
